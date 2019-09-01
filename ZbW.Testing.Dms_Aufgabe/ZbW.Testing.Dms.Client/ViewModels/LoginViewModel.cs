@@ -1,11 +1,10 @@
-﻿namespace ZbW.Testing.Dms.Client.ViewModels
+﻿using ZbW.Testing.Dms.Client.Views;
+using System.Windows;
+using Prism.Commands;
+using Prism.Mvvm;
+
+namespace ZbW.Testing.Dms.Client.ViewModels
 {
-    using System.Windows;
-
-    using Prism.Commands;
-    using Prism.Mvvm;
-
-    using ZbW.Testing.Dms.Client.Views;
 
     internal class LoginViewModel : BindableBase
     {
@@ -40,17 +39,17 @@
             }
         }
 
-        private bool OnCanLogin()
+        public bool OnCanLogin()
         {
             return !string.IsNullOrEmpty(Benutzername);
         }
 
-        private void OnCmdAbbrechen()
+        public void OnCmdAbbrechen()
         {
             Application.Current.Shutdown();
         }
 
-        private void OnCmdLogin()
+        public void OnCmdLogin()
         {
             if (string.IsNullOrEmpty(Benutzername))
             {

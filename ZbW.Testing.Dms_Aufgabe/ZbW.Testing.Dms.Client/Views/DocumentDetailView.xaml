@@ -30,12 +30,12 @@
                    Text="Dokument"/>
         <Button Grid.Row="0" Grid.Column="1"
                 Content="Durchsuchen"
-                Command="{Binding CmdDurchsuchen}"/>
+                Command="{Binding CmdDurchsuchen}" Height="26" Margin="5,0,5,2" VerticalAlignment="Bottom"/>
 
         <TextBlock Grid.Row="1" Grid.Column="0"
                    Text="Bezeichnung"/>
         <TextBox Grid.Row="1" Grid.Column="1"
-                 Text="{Binding Bezeichnung}"/>
+                 Text="{Binding Bezeichnung, UpdateSourceTrigger=PropertyChanged}"/>
 
         <TextBlock Grid.Row="2" Grid.Column="0"
                    Text="Valuta Datum"/>

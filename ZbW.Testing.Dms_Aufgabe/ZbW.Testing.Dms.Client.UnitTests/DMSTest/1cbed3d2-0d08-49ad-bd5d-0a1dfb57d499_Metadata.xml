@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<MetadataItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Benutzer>Joshua</Benutzer>
+  <Bezeichnung>Test Quittungen</Bezeichnung>
+  <Erfassungsdatum>2019-08-25T17:54:53.3448302+02:00</Erfassungsdatum>
+  <FilePath>C:\Temp\DMS/2019//1cbed3d2-0d08-49ad-bd5d-0a1dfb57d499_Content.txt</FilePath>
+  <IsRemoveFileEnabled>false</IsRemoveFileEnabled>
+  <SelectedTypItem>Quittungen</SelectedTypItem>
+  <Stichwoerter>Test Quittungen</Stichwoerter>
+  <ValutaDatum>2019-08-01T00:00:00</ValutaDatum>
+</MetadataItem>
