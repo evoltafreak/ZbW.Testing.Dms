@@ -11,7 +11,7 @@ namespace ZbW.Testing.Dms.Client.UnitTests
         [Test]
         public void TestReadXml()
         {
-            MetadataItem item = XmlService.ReadXML(@"C:\workspace\HF\Semester_2\ZbW.Testing.Dms\ZbW.Testing.Dms_Aufgabe\ZbW.Testing.Dms.Client.UnitTests\DMSTest\2019/5be309a6-82d1-4aec-a241-938ce3cbcc6c_Metadata.xml");
+            MetadataItem item = XmlService.ReadXML(@"..\..\DMSTest\1cbed3d2-0d08-49ad-bd5d-0a1dfb57d499_Metadata.xml");
             Assert.IsNotNull(item);
             Assert.AreEqual("Joshua", item.Benutzer);
             Assert.AreEqual("Test Quittungen", item.Bezeichnung);
